@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="topnav">
+      <!-- <a href="dashboards.html">Admin Page</a> -->
+        <a class="" href="login.html">Home</a>
+        <!-- <a href="staff.html">Staffs Page</a> -->
+        <div class="left">
+        <a href="login.html">Login</a>
+        <a href="register.html">Register</a></div>
+      </div>
+      <br>
+    <form action="register.php" method="POST" enctype='multipart/form-data'>
+        <div class="container">
+            <center><h2>Sign up</h2></center>
+            <hr>
+          <label for=""><b>Firstname</b></label>
+          <input type="text" placeholder="Enter First_name" name="first_name" id="First_name" required><br>
+          
+          <label for=""><b>Lastname</b></label>
+          <input type="text" placeholder="Enter Lastname" name="last_name" id="Last_name" required><br>
+
+          <label for=""><b>Department</b></label>
+          <input type="text" placeholder="Enter department" name="dept" id="department" required><br>
+          
+          <label for=""><b>Sub Unit</b></label>
+          <input type="text" placeholder="Enter Sub Unit" name="sub_unit" id="sub_unit" required><br>
+          <label for=""><b>Sub Unit</b></label>
+          <input type="text" placeholder="Enter Unit" name="unit" id="sub_unit" required><br>
+          <label for=""><b>Rank</b></label>
+          <input type="text" placeholder="Enter Rank" name="rank" id="rank" required><br>
+          
+          <label for="username"><b>Username</b></label>
+          <input type="text" placeholder="Enter username" name="username" id="username" required><br>
+      
+          <label for="psw"><b>Password</b></label>
+          <input type="password" placeholder="Enter Password" name="password" id="password" required><br>
+      
+          <!-- <label for="psw-repeat"><b>Repeat Password</b></label>
+          <input type="password" placeholder="Repeat Password" name="password_repeat" id="password_repeat" required><br> -->
+
+          <tr><td><b>Passport :</b></td><td><input type="file" name="uploadfile" value="" class="custom-file"></td></tr>
+          
+          <button type="submit" class="registerbtn" name="submit">Register</button>
+          <p>Already have an account? <a href="login.html">Sign in</a>.</p>
+        </div>
+         
+        
+      </form>
+</body>
+</html>

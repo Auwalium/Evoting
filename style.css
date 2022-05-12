@@ -1,0 +1,214 @@
+body {
+    margin: 0;
+    padding: 0;
+    font-family: Arial, ;
+  }
+  
+  .topnav {
+    overflow: hidden;
+    background-color: #121615;
+    
+  }
+  
+  .topnav a {
+    float: left;
+    color: #9b9797;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-size: 13px;
+  }
+  .left{
+      float: right;
+  }
+  
+  .topnav a:hover {
+    background-color: rgb(206, 224, 217);
+    color: black;
+  }
+
+ 
+  
+  .topnav a.active {
+    background-color: #04AA6D;
+    color: white;
+  }
+
+ /* Register start  */
+
+  body {
+    font-family: Arial;
+    background-color:    #bdcfcc;
+    
+  }
+  
+  * {
+    box-sizing: border-box;
+  }
+  
+  /* Add padding to containers */
+  .container {
+    padding: 16px;
+    background-color:  #aadbd0;
+    margin-left: 270px;
+    margin-right: 300px;
+    border-radius: 10px;
+    margin-bottom: 300px;
+    margin-top: 20px;
+    font-size: 8px;
+    
+  }
+  
+  /* Full-width input fields */
+  input[type=text], input[type=password] {
+    width: 100%;
+    padding: 7px;
+    margin: 2px 0 10px 0;
+    display: inline-block;
+    border: none;
+    background: #f1f1f1;
+    border-radius: 10px;
+    
+  }
+  
+  input[type=text]:focus, input[type=password]:focus {
+    background-color:    #f0fdfa;
+    ;
+    outline: none;
+  }
+  
+  
+  /* Set a style for the submit button */
+  .registerbtn {
+    background-color: #04AA6D;
+    color: white;
+    padding: 10px 10px;
+    margin: 8px 0;
+    border: none;
+    cursor: pointer;
+    width: 100%;
+    border-radius: 10px;
+    
+    
+  }
+  
+  .registerbtn:hover {
+    opacity: 1;
+  }
+  
+  /* Add a blue text color to links */
+  a {
+    color: dodgerblue;
+  }
+
+/* staff page start */
+.text-box h1{
+  color: rgb(0, 0, 0);
+  margin-bottom: auto;
+  margin-top: auto;
+}
+.text-box p{
+  font-size: 14px;
+  line-height: 2px;
+  margin-top: auto;       
+}
+.text-box button {
+  background: orange;
+  width: 100px;
+  border: none;
+  padding: 10px;
+  border-radius: 10px;
+  
+}
+
+.text-box{
+  padding-left: 110px;
+  color: rgb(13, 163, 13);
+}
+   
+
+/* Home start her */
+html {
+  font-size: 62.5%;
+  overflow-x: hidden;
+}
+
+html::-webkit-scrollbar {
+  width: 1rem;
+}
+
+html::-webkit-scrollbar-track {
+  background: transparent;
+}
+
+html::-webkit-scrollbar-thumb {
+  background: #c4d6d1;
+}
+
+section {
+  padding: 5rem 10%;
+}
+
+
+.swiper-pagination-bullet-active {
+  background: #0eb582;
+}
+
+.subjects .box-container {
+  display: -ms-grid;
+  display: grid;
+  -ms-grid-columns: (minmax(16rem, 1fr))[auto-fit];
+      grid-template-columns: repeat(auto-fit, minmax(16rem, 1fr));
+  gap: 2rem;
+}
+
+.subjects .box-container .box {
+  /* padding: 5rem 2rem; */
+  text-align: center;
+  border: 0.2rem solid #0eb582;
+  background: #f0fdfa;
+  cursor: pointer;
+  border-radius: 10px;
+}
+
+.subjects .box-container .box:hover {
+  background: #0eb582;
+}
+
+.subjects .box-container .box:hover h3 {
+  color: #fff;
+}
+
+.subjects .box-container .box:hover p {
+  color: #eee;
+}
+
+.subjects .box-container .box img {
+  height: 10rem;
+  margin-top: 20px;
+  margin-bottom: .7rem;
+  height: 120px;
+}
+
+.subjects .box-container .box h3 {
+  font-size: 1.7rem;
+  text-transform: capitalize;
+  color: #444;
+  padding: .5rem 0;
+}
+
+.subjects .box-container .box p {
+  font-size: 1.5rem;
+  line-height: 2;
+  color: #777;
+}
+/* Home end her */
+
+   
+/*span{
+  font-size: 60px;
+  font-weight: 20px;
+  font:90px ;
+
+  }
+*/

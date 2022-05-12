@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="topnav">
+      
+        <a class="" href="login.html">Home</a>
+        
+        <div class="left">
+        <a href="login.html">Login</a>
+        <a href="register.html">Register</a></div>
+      </div>
+    <br>
+    <div class="container">
+        <center><h2>Sign in</h2></center>
+        <hr>
+    <form method = "POST" action="login.php">
+        <label for="email"><b>UserName</b></label>
+        <input type="text" placeholder="Enter username" name="username" id="username" required><br>
+    
+        <label for="psw"><b>Password</b></label>
+        <input type="password" placeholder="Enter Password" name="password" id="password" required><br>
+
+        <button type="submit" name ="submit" class="registerbtn">Login</button>
+        <p>Dont have an account? <a href="register.html">Sign Up</a>.</p>
+      </div>
+    </form>
+</body>
+</html>
